@@ -29,6 +29,7 @@ class AIBlock {
         const options = {
             //Has to be post for some reason
             method: "POST",
+            mode: 'no-cors',
             //Input prompt and a decent length
             body: JSON.stringify({
                 prompt: text,
