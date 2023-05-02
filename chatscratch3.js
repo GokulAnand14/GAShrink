@@ -46,6 +46,7 @@ class AIBlock {
 
         //Fetch and await promise.
         const response = await fetch(url, options);
+        console.log(response)
         //Get JSON data
         const jsonData = await response.json();
 
